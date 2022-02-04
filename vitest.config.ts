@@ -11,5 +11,10 @@ export default defineConfig({
     coverage: {
       all: true
     }
+    // This doesn't work either
+    // coverage: {
+    //   include: ['src/**/*.{ts,vue}'],
+    //   all: true,
+    // } as any
   },
 })
